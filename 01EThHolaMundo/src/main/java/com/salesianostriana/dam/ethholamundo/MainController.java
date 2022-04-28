@@ -50,7 +50,7 @@ public class MainController {
 	@GetMapping ("/saludo2")
 	public String welcome2 (Model model) {
 		
-		model.addAttribute("persona", new Persona ("Ángel", "Naranjo González"));
+		model.addAttribute("persona", new Persona ("Alejandro", "Fernández Gómez-Caminero","19"));
 		return "SaludoPersonalizado";
 	}
 	
